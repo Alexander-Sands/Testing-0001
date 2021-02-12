@@ -1,0 +1,400 @@
+/* Start Main Rulez */
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Prompt', 'Concert One', 'Lato', sans-serif;
+}
+img {
+    vertical-align: middle;
+}
+/* End Main Rulez */
+
+/* Start Login Form */
+.Login-Form{
+    background-color: #111;
+    position: relative
+}
+.Login-Form .logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../Media/Images/Login-Form/Login-Form-4.svg');
+    background-size: cover;
+    -webkit-background-position: 50% 50%;
+    -moz-background-position: 50% 50%;
+    -o-background-position: 50% 50%;
+    background-position: 50% 50%;
+    z-index: 1
+}
+.Login-Form .overlay{
+    background: rgba(0, 34, 39, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2
+}
+.Login-Form .Login{
+    border: 5px solid rgba(255, 255, 255, 0.9);
+    border-radius: 30% 30% 300px 300px;
+    padding: 30px;
+    background: rgba(217, 217, 217, 0.9) /*rgba(209, 195, 217, 0.9)*/ /*rgba(195, 211, 217, 0.9)*/;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    z-index: 3
+}
+@media (max-width: 767px) {
+    .Login-Form .Login {
+        border-radius: 15% 15% 250px 250px;
+    }
+}
+@media (max-width: 567px) {
+    .Login-Form .Login {
+        border-radius: 10% 10% 250px 250px;
+        margin: 0 20px
+    }
+}
+@media (max-width: 467px) {
+    .Login-Form .Login {
+        padding: 20px;
+    }
+}
+/*
+@media (max-width: 367px) {
+    .Login-Form .Login {
+        padding: 20px;
+    }
+}
+*/
+.Login-Form .Login .Logo{
+    background-color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    border: 5px solid #3a0840
+}
+.Login-Form .Login .Logo > img {
+    width: 80px;
+    display: block;
+    margin: auto
+}
+.Login-Form .Login .Table{
+    display: table;
+    text-align: center;
+    margin: auto
+}
+.Login-Form .Login .Table .row{
+    display: table-row
+}
+.Login-Form .Login .Table .call{
+    display: table-cell;
+    vertical-align: middle
+}
+.Login-Form .Login .Table .call img{
+    width: 50px;
+    display: block
+}
+/*
+@media (max-width: 467px) {
+    .Login-Form .Login .Table .call img {
+        width: 30px
+    }
+}
+@media (max-width: 367px) {
+    .Login-Form .Login .Table .call img {
+        width: 35px
+    }
+}
+*/
+.Login-Form .Login h2{
+    margin: 0;
+    color: #44003c /*#3d0044*/ /* #00333e*/;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Amiri', sans-serif
+}
+/*
+@media (max-width: 767px) {
+    .Login-Form .Login h2{
+        font-size: 22px
+    }
+}
+@media (max-width: 567px) {
+    .Login-Form .Login h2{
+        font-size: 15px
+    }
+}
+@media (max-width: 380px) {
+    .Login-Form .Login h2{
+        font-size: 15px
+    }
+}
+*/
+@media (max-width: 467px) {
+    .Login-Form .Login h2{
+        font-size: 18px
+    }
+}
+/*
+@media (max-width: 367px) {
+    .Login-Form .Login h2{
+        font-size: 13px
+    }
+}
+*/
+.Login-Form .Login p{
+    color: #111;
+    font-size: 17px;
+    margin: 20px auto 20px;
+    padding: 20px 0;
+    font-size: 14px;
+/*
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+*/
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    padding: 5px 15px;
+    border-radius: 50px;
+    width: 80%;
+    color: #DDD;
+    background-color:  rgba(35, 0, 39, 0.9);
+}
+@media (max-width: 767px) {
+    .Login-Form .Login p{
+        border-radius: 15px;
+    }
+}
+@media (max-width: 566px) {
+    .Login-Form .Login p{
+        width: 100%
+    }
+}
+@media (max-width: 467px) {
+    .Login-Form .Login p{
+/*        background-color:  transparent;*/
+/*        color: #555;*/
+        margin: 10px auto;
+        width: 98%;
+        margin-top: 0;
+        padding: 8px 8px;
+        border-radius: 10px;
+    }
+}
+/*
+@media (max-width: 767px) {
+    .Login-Form .Login p{
+        font-size: 14px;
+        width: 80%;
+        padding: 5px ;
+        margin: 10px auto 20px
+    }
+}
+@media (max-width: 566px) {
+    .Login-Form .Login p{
+        width: 95%;
+    }
+}
+@media (max-width: 367px) {
+    .Login-Form .Login p{
+        margin: 10px auto 8px
+    }
+}
+*/
+.Login-Form .Login p span{
+    display: inline-block;
+/*
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+    padding: 5px 15px;
+    border-radius: 50px;
+*/
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF
+}
+@media (max-width: 467px) {
+    .Login-Form .Login p span{
+/*        color: #000;*/
+        font-size: 13px
+    }
+}
+/*
+@media (max-width: 767px) {
+    .Login-Form .Login span {
+        margin: 5px auto
+    }
+}
+@media (max-width: 367px) {
+    .Login-Form .Login p span {
+        padding: 2px 8px
+    }
+}
+*/
+.Login-Form .Login p span:first-child img{
+    width: 30px
+}
+.Login-Form .Login p span:last-child img{
+    width: 20px
+}
+@media (max-width: 467px) {
+    .Login-Form .Login p span img {
+        display: none
+    }
+}
+.Login-Form .Login input{
+    display: block;
+    margin: 20px auto;
+    outline: none;
+}
+/*
+@media (max-width: 367px) {
+    .Login-Form .Login input {
+        margin: 12px auto;
+    }
+}
+*/
+.Login-Form .Login input[type="email"],
+.Login-Form .Login input[type="text"],
+.Login-Form .Login input[type="password"]{
+    padding: 8px 20px;
+    width: 60%;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    color: #777
+}
+@media (max-width: 767px) {
+    .Login-Form .Login input[type="email"],
+    .Login-Form .Login input[type="text"],
+    .Login-Form .Login input[type="password"]{
+        width: 77%;
+        margin-top: 0
+    }
+}
+@media (max-width: 567px) {
+    .Login-Form .Login input[type="email"],
+    .Login-Form .Login input[type="text"],
+    .Login-Form .Login input[type="password"]{
+        width: 90%;
+    }
+}
+@media (max-width: 367px) {
+    .Login-Form .Login input[type="email"],
+    .Login-Form .Login input[type="text"],
+    .Login-Form .Login input[type="password"]{
+        padding: 5px 20px;
+    }
+}
+.Login-Form .Login input[type="email"]:focus,
+.Login-Form .Login input[type="text"]:focus,
+.Login-Form .Login input[type="password"]:focus{
+    border: 1px solid #690076 /*#009eb2*/;
+    -webkit-box-shadow:  0px 0px 7px 2px #29002e;
+            box-shadow:  0px 0px 7px 2px #29002e
+}
+.Login-Form .Login input[type="submit"]{
+    padding: 8px 20px;
+    width: 45%;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #37113c /*#29002e*/ /*#200024*/ /*#002f2f*/;
+    border: 2px solid #EEE;
+    cursor: pointer;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out
+}
+@media (max-width: 567px) {
+    .Login-Form .Login input[type="submit"]{
+        font-size: 14px
+    }
+}
+/*
+@media (max-width: 767px) {
+    .Login-Form .Login input[type="submit"]{
+        width: 37%;
+        padding: 8px 10px;
+    }
+}
+@media (max-width: 367px) {
+    .Login-Form .Login input[type="submit"]{
+        font-size: 13px
+    }
+}
+.Login-Form .Login input[type="submit"]:hover{;
+    /*background-color: #390040;*//*
+    background-color: #53005d
+}
+*/
+/* End Login Form */
+
+/* Start Popup */
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background-color: rgba(15, 15, 15, 0.9);
+    display: none
+}
+.popup .inner-2{
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    padding: 20px;
+    width: 500px;
+    /*height: 150px;*/
+    position: fixed;
+    left: 50%;
+    margin-left: -250px;
+    top:50%;
+    margin-top: -50px;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center
+}
+@media (max-width: 567px) {
+    .popup .inner-2 {
+        width: 280px;
+        margin-left: -140px;
+    }
+}
+.popup .inner-2 h2{
+    margin: 0 0 5px;
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #53005d
+}
+.popup .inner-2 img{
+        width: 50px
+}
+@media (max-width: 566px) {
+    .popup .inner-2 h2{
+        font-size: 15px
+    }
+    .popup .inner-2 img{
+        width: 35px
+    }
+}
+.popup .inner-2 p{
+    padding: 0;
+    margin: 0;
+    color: #999;
+    line-height: 1.6;
+    text-transform: capitalize
+}
+/* End Popup */
